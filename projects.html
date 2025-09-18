@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Avantika More</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* ===== Projects Page Enhancements ===== */
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project-item h3 {
+  font-size: 20px;
+  color: #0d1b2a;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #555;
+  flex-grow: 1;
+}
+
+.project-item a {
+  text-decoration: none;
+  color: #fff;
+  background: #ffb703;
+  padding: 10px 16px;
+  border-radius: 6px;
+  align-self: flex-start;
+  transition: background 0.3s;
+}
+
+.project-item a:hover {
+  background: #e6a300;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AVANTIKA ARVIND MORE | IT ENGINEER</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="certificates.html">Certificates</a>
+      <a href="resume.html">Resume</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects-list">
+      
+      <!-- Portfolio Project -->
+      <div class="project-item">
+        <h3>Portfolio Website</h3>
+        <p>This site! My personal portfolio built using HTML & CSS to showcase my profile, skills, projects, and certifications.</p>
+        <a href="https://github.com/avantiikaa/portfolio-website" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Tours and Travels Project -->
+      <div class="project-item">
+        <h3>Tours and Travels Platform</h3>
+        <p>Online travel booking platform with features like search, booking, user dashboard. Built with HTML, CSS, PHP, MySQL, JavaScript.</p>
+        <a href="https://github.com/avantiikaa/tours-and-travels" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Student Dropout Prediction -->
+      <div class="project-item">
+        <h3>Student Dropout Prediction</h3>
+        <p>Machine learning web app that predicts risk of student dropout using historical academic & attendance data. Integrated with Firebase backend.</p>
+        <a href="https://github.com/avantiikaa/student-dropout-prediction" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Online Banking Management System -->
+      <div class="project-item">
+        <h3>Online Banking Management System</h3>
+        <p>A secure banking application built using Java + MySQL. Allows users to manage accounts, transactions, and profiles.</p>
+        <a href="https://github.com/avantiikaa/online-banking-system" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Parking Slot Management System -->
+      <div class="project-item">
+        <h3>Parking Slot Management System</h3>
+        <p>Real-time parking allocation & tracking system using Python and MySQL. Includes admin panel to view occupancy.</p>
+        <a href="https://github.com/avantiikaa/parking-slot-management" target="_blank">GitHub Repo</a>
+      </div>
+
+      <!-- Add any more projects you have, same structure -->
+      
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avantika More | Portfolio</p>
+  </footer>
+</body>
+</html>
