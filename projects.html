@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Avantika More</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* ===== Projects Page Enhancements ===== */
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project-item h3 {
+  font-size: 20px;
+  color: #0d1b2a;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #555;
+  flex-grow: 1;
+}
+
+.project-item a {
+  text-decoration: none;
+  color: #fff;
+  background: #ffb703;
+  padding: 10px 16px;
+  border-radius: 6px;
+  align-self: center;
+  transition: background 0.3s;
+}
+
+.project-item a:hover {
+  background: #e6a300;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AVANTIKA ARVIND MORE | IT ENGINEER</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="certificates.html">Certificates</a>
+      <a href="resume.html">Resume</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects-list">
+      
+      <!-- Portfolio Project -->
+      <div class="project-item">
+        <h3>Portfolio Website</h3>
+        <p>This site! My personal portfolio built using HTML & CSS to showcase my profile, skills, projects, and certifications.</p>
+        <a href="https://github.com/avantiikaa/Portfolio" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Tours and Travels Project -->
+      <div class="project-item">
+        <h3>Tours and Travels Platform</h3>
+        <p>Online travel booking platform with features like search, booking, user dashboard. Built with HTML, CSS, PHP, MySQL, JavaScript.</p>
+        <a href="https://github.com/avantiikaa/tours-and-travels" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Student Dropout Prediction -->
+      <div class="project-item">
+        <h3>Student Dropout Prediction</h3>
+        <p>Machine learning web app that predicts risk of student dropout using historical academic & attendance data. Integrated with Firebase backend.</p>
+        <a href="https://github.com/avantiikaa/Dropout_Defender_project" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Online Banking Management System -->
+      <div class="project-item">
+        <h3>Online Banking Management System</h3>
+        <p>A secure banking application built using Java + MySQL. Allows users to manage accounts, transactions, and profiles.</p>
+        <a href="https://github.com/avantiikaa/Online-Banking-Management-System" target="_blank">GitHub Repo</a>
+      </div>
+      
+      <!-- Parking Slot Management System -->
+      <div class="project-item">
+        <h3>Parking Slot Management System</h3>
+        <p>Real-time parking allocation & tracking system using Python and MySQL. Includes admin panel to view occupancy.</p>
+        <a href="https://github.com/avantiikaa/Parking-Slot-Management-System" target="_blank">GitHub Repo</a>
+      </div>
+
+      <!-- Add any more projects you have, same structure -->
+       <!-- Physiotherapist Exercise Estimator -->
+      <div class="project-item">
+        <h3>Physiotherapist Exercise Estimator</h3>
+        <p>This project is a simple Node.js application with HTML frontend to recommend physiotherapy exercises.</p>
+        <a href="https://github.com/avantiikaa/Physiotherapist-Exercise-Estimator" target="_blank">GitHub Repo</a>
+      </div>
+
+      <!-- smart parking system -->
+      <div class="project-item">
+        <h3>Smart Parking System - IOT Based Project</h3>
+        <p>An IoT smart parking system using ESP8266 and IR sensors to monitor slots and control barriers.</p>
+        <a href="https://github.com/avantiikaa/Smart-Parking-System---IOT-Based-Project" target="_blank">GitHub Repo</a>
+      </div>
+
+      <!-- buzz wire game -->
+      <div class="project-item">
+        <h3>Buzz Wire Game - IOT Based Project</h3>
+        <p>An IoT Buzz Wire Game with Arduino Uno that buzzes on contact, allowing limited retries.</p>
+        <a href="https://github.com/avantiikaa/BUZZ-WIRE-GAME---IOT-Based-Project" target="_blank">GitHub Repo</a>
+      </div>
+
+      <!-- cervical cancer -->
+      <div class="project-item">
+        <h3>Cervical Cancer Behaviour Risk - BI Based Project</h3>
+        <p>This project employs data mining techniques to analyze cervical cancer risk factors, utilizing the UCI dataset for preprocessing and modeling.</p>
+        <a href="https://github.com/avantiikaa/Business-Intelligence-Mini-Project-Cervical-Cancer-Behaviour-Risk" target="_blank">GitHub Repo</a>
+      </div>
+
+      <!-- fake news detection -->
+      <div class="project-item">
+        <h3>Fake News Detection</h3>
+        <p>A machine learning + Flask-based web app to detect fake news from text input. Used TF-IDF vectorization and 
+Logistic Regression Model</p>
+        <a href="https://github.com/avantiikaa/Fake-News-Detection" target="_blank">GitHub Repo</a>
+      </div>
+
+      <!-- book recommendation system -->
+      <div class="project-item">
+        <h3>Book Recommendation System</h3>
+        <p>A Python-based book recommendation system that suggests personalized books using collaborative and content-based filtering.</p>
+        <a href="https://github.com/avantiikaa/Book-Recommendation-System" target="_blank">GitHub Repo</a>
+      </div>
+
+       <!-- defi -->
+      <div class="project-item">
+        <h3>DeFi Savings & Lending Platform - Blockchain Based Project</h3>
+        <p>This project demonstrates decentralized finance savings and lending using: Solidity Smart Contracts and MetaMask Wallet Integration.</p>
+        <a href="https://github.com/avantiikaa/Decentralized-Finance---Savings-and-Lending" target="_blank">GitHub Repo</a>
+      </div>
+</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avantika More | Portfolio</p>
+  </footer>
+</body>
+</html>
